@@ -1,0 +1,40 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    A diff locates the changes in files for you making it easier for you to identify the source of a bug and then fix it.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    You can see how the file evolved and also it provides a way to go back to a previous version automatically rather than by manually undoing your work.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros:  
+		- commits occur at points of interest to you in a manual system and may have comments associated with them
+		- work is always saved so lower chance of losing it in an auto update system
+	Cons:
+		- work can be lost, inconsistent amount of change can happen between commits in a manual system
+		- lots of possible restore points in an automatic system and they are don't have comments to go with them
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    The two systems likely have different use cases.  Files in Git are part of a larger system and work together 
+	so it makes sense they are committed together.  Files in Google Doc (eg: Word, Excel, PowerPoint) do not in 
+	general have file to file dependencies or association so they should be committed independently.  
+
+How can you use the commands git log and git diff to view the history of files?
+
+    You can review previous commits' notes and then use diff to examine the changes that occurred between them.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Who cares if you break something when you can magically un-break it?  
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    All my new projects!
