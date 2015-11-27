@@ -32,7 +32,7 @@ the diagram the way we do?
 
 	The result of merging two branches together is all the changes made in each branch are now combined
 	into one branch.  The diagram representation illustrates the history of the current branch as 
-	having been merged in the past to better understand the commit history.
+	having been merged in the past to better understand the commit history.   
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
